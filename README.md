@@ -1,1 +1,1 @@
-# IOS_pokedex
+# PokeDex
