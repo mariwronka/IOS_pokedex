@@ -1,5 +1,5 @@
 # PokeDex
-O Pokedex é um aplicativo simples desenvolvida para iOS. Não é um jogo oficial mas contém dados detalhados sobre cada Pokémon. 
+O Pokedex é uma aplicação simples desenvolvida para iOS. Não é um jogo oficial mas contém dados detalhados sobre cada Pokémon. 
 
 ### Como Funciona
 A Pokedex é uma enciclopédia virtual portátil de alta tecnologia que os treinadores Pokemon transportam para registrar todas as espécies diferentes de Pokemon que são encontradas durante a sua viagem como treinadores. 
