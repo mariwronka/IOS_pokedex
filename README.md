@@ -10,4 +10,4 @@ A Pokedex é uma enciclopédia virtual portátil de alta tecnologia que os trein
 * Já o possível navegar entre as 3 tabs criadas na tela principal. São elas `pokemons`, `moves`, `itens`
 
 ##
-![pokedex](https://user-images.githubusercontent.com/12899445/59170079-52b8e800-8b13-11e9-8c6f-096a54676328.png)
+![pokedex](https://user-images.githubusercontent.com/12899445/59175357-a0d9e580-8b2b-11e9-8e15-b01a7c032157.png)
