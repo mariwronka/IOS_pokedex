@@ -25,6 +25,14 @@ extension UIView {
             clipsToBounds = newValue > 0
         }
     }
+    
+    func addShadow() {
+        layer.shadowColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
+        layer.shadowOffset = CGSize(width: 0, height: 0)
+        layer.shadowOpacity = 0.5
+        layer.shadowRadius = 5
+        clipsToBounds = false
+    }
 }
 
 extension UISearchController {

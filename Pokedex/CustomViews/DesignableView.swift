@@ -9,4 +9,11 @@
 import UIKit
 
 @IBDesignable
-class DesignableView: UIView { }
+class DesignableView: UIView {
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        self.addShadow()
+    }
+    
+}

@@ -1,4 +1,2030 @@
-{"list": {
-  "pokemons": [{"name":"bulbasaur","id":"1","types":["grass","poison"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"},{"name":"ivysaur","id":"2","types":["grass","poison"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png"},{"name":"venusaur","id":"3","types":["grass","poison"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png"},{"name":"charmander","id":"4","types":["fire"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png"},{"name":"charmeleon","id":"5","types":["fire"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png"},{"name":"charizard","id":"6","types":["fire","flying"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png"},{"name":"squirtle","id":"7","types":["water"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png"},{"name":"wartortle","id":"8","types":["water"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png"},{"name":"blastoise","id":"9","types":["water"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png"},{"name":"caterpie","id":"10","types":["bug"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png"},{"name":"metapod","id":"11","types":["bug"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png"},{"name":"butterfree","id":"12","types":["bug","flying"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png"},{"name":"weedle","id":"13","types":["bug","poison"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png"},{"name":"kakuna","id":"14","types":["bug","poison"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png"},{"name":"beedrill","id":"15","types":["bug","poison"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png"},{"name":"pidgey","id":"16","types":["normal","flying"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png"},{"name":"pidgeotto","id":"17","types":["normal","flying"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png"},{"name":"pidgeot","id":"18","types":["normal","flying"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png"},{"name":"rattata","id":"19","types":["normal"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png"},{"name":"raticate","id":"20","types":["normal"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png"}]
-},
-"details":[{"name":"bulbasaur","id":"1","types":["grass","poison"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png","stats":[{"name":"speed","value":45},{"name":"special-defense","value":65},{"name":"special-attack","value":65},{"name":"defense","value":49},{"name":"attack","value":49},{"name":"hp","value":45}],"description":"A strange seed was\nplanted on its\nback at birth.\fThe plant sprouts\nand grows with\nthis POKéMON."},{"name":"ivysaur","id":"2","types":["grass","poison"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png","stats":[{"name":"speed","value":60},{"name":"special-defense","value":80},{"name":"special-attack","value":80},{"name":"defense","value":63},{"name":"attack","value":62},{"name":"hp","value":60}],"description":"When the bulb on\nits back grows\nlarge, it appears\fto lose the\nability to stand\non its hind legs."},{"name":"venusaur","id":"3","types":["grass","poison"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png","stats":[{"name":"speed","value":80},{"name":"special-defense","value":100},{"name":"special-attack","value":100},{"name":"defense","value":83},{"name":"attack","value":82},{"name":"hp","value":80}],"description":"The plant blooms\nwhen it is\nabsorbing solar\fenergy. It stays\non the move to\nseek sunlight."},{"name":"charmander","id":"4","types":["fire"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png","stats":[{"name":"speed","value":65},{"name":"special-defense","value":50},{"name":"special-attack","value":60},{"name":"defense","value":43},{"name":"attack","value":52},{"name":"hp","value":39}],"description":"Obviously prefers\nhot places. When\nit rains, steam\fis said to spout\nfrom the tip of\nits tail."},{"name":"charmeleon","id":"5","types":["fire"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png","stats":[{"name":"speed","value":80},{"name":"special-defense","value":65},{"name":"special-attack","value":80},{"name":"defense","value":58},{"name":"attack","value":64},{"name":"hp","value":58}],"description":"When it swings\nits burning tail,\nit elevates the\ftemperature to\nunbearably high\nlevels."},{"name":"charizard","id":"6","types":["fire","flying"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png","stats":[{"name":"speed","value":100},{"name":"special-defense","value":85},{"name":"special-attack","value":109},{"name":"defense","value":78},{"name":"attack","value":84},{"name":"hp","value":78}],"description":"Spits fire that\nis hot enough to\nmelt boulders.\fKnown to cause\nforest fires\nunintentionally."},{"name":"squirtle","id":"7","types":["water"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png","stats":[{"name":"speed","value":43},{"name":"special-defense","value":64},{"name":"special-attack","value":50},{"name":"defense","value":65},{"name":"attack","value":48},{"name":"hp","value":44}],"description":"After birth, its\nback swells and\nhardens into a\fshell. Powerfully\nsprays foam from\nits mouth."},{"name":"wartortle","id":"8","types":["water"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png","stats":[{"name":"speed","value":58},{"name":"special-defense","value":80},{"name":"special-attack","value":65},{"name":"defense","value":80},{"name":"attack","value":63},{"name":"hp","value":59}],"description":"Often hides in\nwater to stalk\nunwary prey. For\fswimming fast, it\nmoves its ears to\nmaintain balance."},{"name":"blastoise","id":"9","types":["water"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png","stats":[{"name":"speed","value":78},{"name":"special-defense","value":105},{"name":"special-attack","value":85},{"name":"defense","value":100},{"name":"attack","value":83},{"name":"hp","value":79}],"description":"A brutal POKéMON\nwith pressurized\nwater jets on its\fshell. They are\nused for high\nspeed tackles."},{"name":"caterpie","id":"10","types":["bug"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png","stats":[{"name":"speed","value":45},{"name":"special-defense","value":20},{"name":"special-attack","value":20},{"name":"defense","value":35},{"name":"attack","value":30},{"name":"hp","value":45}],"description":"Its short feet\nare tipped with\nsuction pads that\fenable it to\ntirelessly climb\nslopes and walls."},{"name":"metapod","id":"11","types":["bug"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png","stats":[{"name":"speed","value":30},{"name":"special-defense","value":25},{"name":"special-attack","value":25},{"name":"defense","value":55},{"name":"attack","value":20},{"name":"hp","value":50}],"description":"This POKéMON is\nvulnerable to\nattack while its\fshell is soft,\nexposing its weak\nand tender body."},{"name":"butterfree","id":"12","types":["bug","flying"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png","stats":[{"name":"speed","value":70},{"name":"special-defense","value":80},{"name":"special-attack","value":90},{"name":"defense","value":50},{"name":"attack","value":45},{"name":"hp","value":60}],"description":"In battle, it\nflaps its wings\nat high speed to\frelease highly\ntoxic dust into\nthe air."},{"name":"weedle","id":"13","types":["bug","poison"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png","stats":[{"name":"speed","value":50},{"name":"special-defense","value":20},{"name":"special-attack","value":20},{"name":"defense","value":30},{"name":"attack","value":35},{"name":"hp","value":40}],"description":"Often found in\nforests, eating\nleaves.\fIt has a sharp\nvenomous stinger\non its head."},{"name":"kakuna","id":"14","types":["bug","poison"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png","stats":[{"name":"speed","value":35},{"name":"special-defense","value":25},{"name":"special-attack","value":25},{"name":"defense","value":50},{"name":"attack","value":25},{"name":"hp","value":45}],"description":"Almost incapable\nof moving, this\nPOKéMON can only\fharden its shell\nto protect itself\nfrom predators."},{"name":"beedrill","id":"15","types":["bug","poison"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png","stats":[{"name":"speed","value":75},{"name":"special-defense","value":80},{"name":"special-attack","value":45},{"name":"defense","value":40},{"name":"attack","value":90},{"name":"hp","value":65}],"description":"Flies at high\nspeed and attacks\nusing its large\fvenomous stingers\non its forelegs\nand tail."},{"name":"pidgey","id":"16","types":["normal","flying"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png","stats":[{"name":"speed","value":56},{"name":"special-defense","value":35},{"name":"special-attack","value":35},{"name":"defense","value":40},{"name":"attack","value":45},{"name":"hp","value":40}],"description":"A common sight in\nforests and woods.\nIt flaps its\fwings at ground\nlevel to kick up\nblinding sand."},{"name":"pidgeotto","id":"17","types":["normal","flying"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png","stats":[{"name":"speed","value":71},{"name":"special-defense","value":50},{"name":"special-attack","value":50},{"name":"defense","value":55},{"name":"attack","value":60},{"name":"hp","value":63}],"description":"Very protective\nof its sprawling\nterritorial area,\fthis POKéMON will\nfiercely peck at\nany intruder."},{"name":"pidgeot","id":"18","types":["normal","flying"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png","stats":[{"name":"speed","value":101},{"name":"special-defense","value":70},{"name":"special-attack","value":70},{"name":"defense","value":75},{"name":"attack","value":80},{"name":"hp","value":83}],"description":"When hunting, it\nskims the surface\nof water at high\fspeed to pick off\nunwary prey such\nas MAGIKARP."},{"name":"rattata","id":"19","types":["normal"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png","stats":[{"name":"speed","value":72},{"name":"special-defense","value":35},{"name":"special-attack","value":25},{"name":"defense","value":35},{"name":"attack","value":56},{"name":"hp","value":30}],"description":"Bites anything\nwhen it attacks.\nSmall and very\fquick, it is a\ncommon sight in\nmany places."},{"name":"raticate","id":"20","types":["normal"],"image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png","stats":[{"name":"speed","value":97},{"name":"special-defense","value":70},{"name":"special-attack","value":50},{"name":"defense","value":60},{"name":"attack","value":81},{"name":"hp","value":55}],"description":"It uses its whis­\nkers to maintain\nits balance.\fIt apparently\nslows down if\nthey are cut off."}],"moves":[{"id":1,"moves":[{"name":"tackle","learnLevel":1,"type":"normal"},{"name":"growl","learnLevel":1,"type":"normal"},{"name":"leech-seed","learnLevel":7,"type":"grass"},{"name":"vine-whip","learnLevel":13,"type":"grass"},{"name":"poison-powder","learnLevel":20,"type":"poison"},{"name":"razor-leaf","learnLevel":27,"type":"grass"},{"name":"growth","learnLevel":34,"type":"normal"},{"name":"sleep-powder","learnLevel":41,"type":"grass"},{"name":"solar-beam","learnLevel":48,"type":"grass"}]},{"id":2,"moves":[{"name":"tackle","learnLevel":1,"type":"normal"},{"name":"growl","learnLevel":1,"type":"normal"},{"name":"leech-seed","learnLevel":7,"type":"grass"},{"name":"vine-whip","learnLevel":13,"type":"grass"},{"name":"poison-powder","learnLevel":22,"type":"poison"},{"name":"razor-leaf","learnLevel":30,"type":"grass"},{"name":"growth","learnLevel":38,"type":"normal"},{"name":"sleep-powder","learnLevel":46,"type":"grass"},{"name":"solar-beam","learnLevel":54,"type":"grass"}]},{"id":3,"moves":[{"name":"tackle","learnLevel":1,"type":"normal"},{"name":"growl","learnLevel":1,"type":"normal"},{"name":"leech-seed","learnLevel":7,"type":"grass"},{"name":"vine-whip","learnLevel":13,"type":"grass"},{"name":"poison-powder","learnLevel":22,"type":"poison"},{"name":"razor-leaf","learnLevel":30,"type":"grass"},{"name":"growth","learnLevel":43,"type":"normal"},{"name":"sleep-powder","learnLevel":55,"type":"grass"},{"name":"solar-beam","learnLevel":65,"type":"grass"}]},{"id":4,"moves":[{"name":"scratch","learnLevel":1,"type":"normal"},{"name":"growl","learnLevel":1,"type":"normal"},{"name":"ember","learnLevel":9,"type":"fire"},{"name":"leer","learnLevel":15,"type":"normal"},{"name":"rage","learnLevel":22,"type":"normal"},{"name":"slash","learnLevel":30,"type":"normal"},{"name":"flamethrower","learnLevel":38,"type":"fire"},{"name":"fire-spin","learnLevel":46,"type":"fire"}]},{"id":5,"moves":[{"name":"scratch","learnLevel":1,"type":"normal"},{"name":"growl","learnLevel":1,"type":"normal"},{"name":"ember","learnLevel":9,"type":"fire"},{"name":"leer","learnLevel":15,"type":"normal"},{"name":"rage","learnLevel":24,"type":"normal"},{"name":"slash","learnLevel":33,"type":"normal"},{"name":"flamethrower","learnLevel":42,"type":"fire"},{"name":"fire-spin","learnLevel":56,"type":"fire"}]},{"id":6,"moves":[{"name":"scratch","learnLevel":1,"type":"normal"},{"name":"growl","learnLevel":1,"type":"normal"},{"name":"ember","learnLevel":1,"type":"fire"},{"name":"leer","learnLevel":15,"type":"normal"},{"name":"rage","learnLevel":24,"type":"normal"},{"name":"slash","learnLevel":36,"type":"normal"},{"name":"flamethrower","learnLevel":46,"type":"fire"},{"name":"fire-spin","learnLevel":55,"type":"fire"}]},{"id":7,"moves":[{"name":"tackle","learnLevel":1,"type":"normal"},{"name":"tail-whip","learnLevel":1,"type":"normal"},{"name":"bubble","learnLevel":8,"type":"water"},{"name":"water-gun","learnLevel":15,"type":"water"},{"name":"bite","learnLevel":22,"type":"dark"},{"name":"withdraw","learnLevel":28,"type":"water"},{"name":"skull-bash","learnLevel":35,"type":"normal"},{"name":"hydro-pump","learnLevel":42,"type":"water"}]},{"id":8,"moves":[{"name":"tackle","learnLevel":1,"type":"normal"},{"name":"tail-whip","learnLevel":1,"type":"normal"},{"name":"bubble","learnLevel":8,"type":"water"},{"name":"water-gun","learnLevel":15,"type":"water"},{"name":"bite","learnLevel":24,"type":"dark"},{"name":"withdraw","learnLevel":31,"type":"water"},{"name":"skull-bash","learnLevel":39,"type":"normal"},{"name":"hydro-pump","learnLevel":47,"type":"water"}]},{"id":9,"moves":[{"name":"tackle","learnLevel":1,"type":"normal"},{"name":"tail-whip","learnLevel":1,"type":"normal"},{"name":"bubble","learnLevel":8,"type":"water"},{"name":"water-gun","learnLevel":15,"type":"water"},{"name":"bite","learnLevel":24,"type":"dark"},{"name":"withdraw","learnLevel":31,"type":"water"},{"name":"skull-bash","learnLevel":42,"type":"normal"},{"name":"hydro-pump","learnLevel":52,"type":"water"}]},{"id":10,"moves":[{"name":"tackle","learnLevel":1,"type":"normal"},{"name":"string-shot","learnLevel":1,"type":"bug"}]},{"id":11,"moves":[{"name":"harden","learnLevel":1,"type":"normal"}]},{"id":12,"moves":[{"name":"confusion","learnLevel":12,"type":"psychic"},{"name":"poison-powder","learnLevel":15,"type":"poison"},{"name":"stun-spore","learnLevel":16,"type":"grass"},{"name":"sleep-powder","learnLevel":17,"type":"grass"},{"name":"supersonic","learnLevel":21,"type":"normal"},{"name":"whirlwind","learnLevel":26,"type":"normal"},{"name":"psybeam","learnLevel":32,"type":"psychic"}]},{"id":13,"moves":[{"name":"poison-sting","learnLevel":1,"type":"poison"},{"name":"string-shot","learnLevel":1,"type":"bug"}]},{"id":14,"moves":[{"name":"harden","learnLevel":1,"type":"normal"}]},{"id":15,"moves":[{"name":"fury-attack","learnLevel":12,"type":"normal"},{"name":"focus-energy","learnLevel":16,"type":"normal"},{"name":"twineedle","learnLevel":20,"type":"bug"},{"name":"rage","learnLevel":25,"type":"normal"},{"name":"pin-missile","learnLevel":30,"type":"bug"},{"name":"agility","learnLevel":35,"type":"psychic"}]},{"id":16,"moves":[{"name":"gust","learnLevel":1,"type":"flying"},{"name":"sand-attack","learnLevel":5,"type":"ground"},{"name":"quick-attack","learnLevel":12,"type":"normal"},{"name":"whirlwind","learnLevel":19,"type":"normal"},{"name":"wing-attack","learnLevel":28,"type":"flying"},{"name":"agility","learnLevel":36,"type":"psychic"},{"name":"mirror-move","learnLevel":44,"type":"flying"}]},{"id":17,"moves":[{"name":"gust","learnLevel":1,"type":"flying"},{"name":"sand-attack","learnLevel":5,"type":"ground"},{"name":"quick-attack","learnLevel":12,"type":"normal"},{"name":"whirlwind","learnLevel":21,"type":"normal"},{"name":"wing-attack","learnLevel":31,"type":"flying"},{"name":"agility","learnLevel":40,"type":"psychic"},{"name":"mirror-move","learnLevel":49,"type":"flying"}]},{"id":18,"moves":[{"name":"gust","learnLevel":1,"type":"flying"},{"name":"sand-attack","learnLevel":5,"type":"ground"},{"name":"quick-attack","learnLevel":12,"type":"normal"},{"name":"whirlwind","learnLevel":21,"type":"normal"},{"name":"wing-attack","learnLevel":31,"type":"flying"},{"name":"agility","learnLevel":44,"type":"psychic"},{"name":"mirror-move","learnLevel":54,"type":"flying"}]},{"id":19,"moves":[{"name":"tackle","learnLevel":1,"type":"normal"},{"name":"tail-whip","learnLevel":1,"type":"normal"},{"name":"quick-attack","learnLevel":7,"type":"normal"},{"name":"hyper-fang","learnLevel":14,"type":"normal"},{"name":"focus-energy","learnLevel":23,"type":"normal"},{"name":"super-fang","learnLevel":34,"type":"normal"}]},{"id":20,"moves":[{"name":"tackle","learnLevel":1,"type":"normal"},{"name":"tail-whip","learnLevel":1,"type":"normal"},{"name":"quick-attack","learnLevel":7,"type":"normal"},{"name":"hyper-fang","learnLevel":14,"type":"normal"},{"name":"focus-energy","learnLevel":27,"type":"normal"},{"name":"super-fang","learnLevel":41,"type":"normal"}]}]}
+{
+  "list": {
+      "pokemons": [
+          {
+              "name": "Bulbasaur",
+              "id": "1",
+              "types": [
+                  "grass",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
+          },
+          {
+              "name": "Ivysaur",
+              "id": "2",
+              "types": [
+                  "grass",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png"
+          },
+          {
+              "name": "Venusaur",
+              "id": "3",
+              "types": [
+                  "grass",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png"
+          },
+          {
+              "name": "Charmander",
+              "id": "4",
+              "types": [
+                  "fire"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png"
+          },
+          {
+              "name": "Charmeleon",
+              "id": "5",
+              "types": [
+                  "fire"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png"
+          },
+          {
+              "name": "Charizard",
+              "id": "6",
+              "types": [
+                  "fire",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png"
+          },
+          {
+              "name": "Squirtle",
+              "id": "7",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png"
+          },
+          {
+              "name": "Wartortle",
+              "id": "8",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png"
+          },
+          {
+              "name": "Blastoise",
+              "id": "9",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png"
+          },
+          {
+              "name": "Caterpie",
+              "id": "10",
+              "types": [
+                  "bug"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png"
+          },
+          {
+              "name": "Metapod",
+              "id": "11",
+              "types": [
+                  "bug"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png"
+          },
+          {
+              "name": "Butterfree",
+              "id": "12",
+              "types": [
+                  "bug",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png"
+          },
+          {
+              "name": "Weedle",
+              "id": "13",
+              "types": [
+                  "bug",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png"
+          },
+          {
+              "name": "Kakuna",
+              "id": "14",
+              "types": [
+                  "bug",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png"
+          },
+          {
+              "name": "Beedrill",
+              "id": "15",
+              "types": [
+                  "bug",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png"
+          },
+          {
+              "name": "Pidgey",
+              "id": "16",
+              "types": [
+                  "normal",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png"
+          },
+          {
+              "name": "Pidgeotto",
+              "id": "17",
+              "types": [
+                  "normal",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png"
+          },
+          {
+              "name": "Pidgeot",
+              "id": "18",
+              "types": [
+                  "normal",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png"
+          },
+          {
+              "name": "Rattata",
+              "id": "19",
+              "types": [
+                  "normal"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png"
+          },
+          {
+              "name": "Raticate",
+              "id": "20",
+              "types": [
+                  "normal"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png"
+          },
+          {
+              "name": "Spearow",
+              "id": "21",
+              "types": [
+                  "normal"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png"
+          },
+          {
+              "name": "Fearow",
+              "id": "22",
+              "types": [
+                  "normal"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png"
+          },
+          {
+              "name": "Fearow",
+              "id": "23",
+              "types": [
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png"
+          },
+          {
+              "name": "Arbok",
+              "id": "24",
+              "types": [
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png"
+          },
+          {
+              "name": "Pikachu",
+              "id": "25",
+              "types": [
+                  "electric"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png"
+          },
+          {
+              "name": "Raichu",
+              "id": "26",
+              "types": [
+                  "electric"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png"
+          },
+          {
+              "name": "Sandshrew",
+              "id": "27",
+              "types": [
+                  "ground"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png"
+          },
+          {
+              "name": "Sandslash",
+              "id": "28",
+              "types": [
+                  "ground"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png"
+          },
+          {
+              "name": "Nidoran♀",
+              "id": "29",
+              "types": [
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png"
+          },
+          {
+              "name": "Nidorina",
+              "id": "30",
+              "types": [
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png"
+          },
+          {
+              "name": "Nidoqueen",
+              "id": "31",
+              "types": [
+                  "poison",
+                  "ground"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png"
+          },
+          {
+              "name": "Nidoran♂",
+              "id": "32",
+              "types": [
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png"
+          },
+          {
+              "name": "Nidorino",
+              "id": "33",
+              "types": [
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png"
+          },
+          {
+              "name": "Nidoking",
+              "id": "34",
+              "types": [
+                  "poison",
+                  "ground"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png"
+          },
+          {
+              "name": "Clefairy",
+              "id": "35",
+              "types": [
+                  "fairy"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png"
+          },
+          {
+              "name": "Clefable",
+              "id": "36",
+              "types": [
+                  "fairy"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png"
+          },
+          {
+              "name": "Vulpix",
+              "id": "37",
+              "types": [
+                  "fire"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png"
+          },
+          {
+              "name": "Ninetales",
+              "id": "38",
+              "types": [
+                  "fire"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png"
+          },
+          {
+              "name": "Jigglypuff",
+              "id": "39",
+              "types": [
+                  "normal",
+                  "fairy"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png"
+          },
+          {
+              "name": "Wigglytuff",
+              "id": "40",
+              "types": [
+                  "normal",
+                  "fairy"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png"
+          },
+          {
+              "name": "Zubat",
+              "id": "41",
+              "types": [
+                  "poison",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png"
+          },
+          {
+              "name": "Golbat",
+              "id": "42",
+              "types": [
+                  "poison",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png"
+          },
+          {
+              "name": "Oddish",
+              "id": "43",
+              "types": [
+                  "grass",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png"
+          },
+          {
+              "name": "Gloom",
+              "id": "44",
+              "types": [
+                  "grass",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png"
+          },
+          {
+              "name": "Vileplume",
+              "id": "45",
+              "types": [
+                  "grass",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png"
+          },
+          {
+              "name": "Paras",
+              "id": "46",
+              "types": [
+                  "bug",
+                  "grass"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png"
+          },
+          {
+              "name": "Parasect",
+              "id": "47",
+              "types": [
+                  "bug",
+                  "grass"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/047.png"
+          },
+          {
+              "name": "Venonat",
+              "id": "48",
+              "types": [
+                  "bug",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/048.png"
+          },
+          {
+              "name": "Venomoth",
+              "id": "49",
+              "types": [
+                  "bug",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/049.png"
+          },
+          {
+              "name": "Diglett",
+              "id": "50",
+              "types": [
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png"
+          },
+          {
+              "name": "Dugtrio",
+              "id": "51",
+              "types": [
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/051.png"
+          },
+          {
+              "name": "Meowth",
+              "id": "52",
+              "types": [
+                  "normal"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png"
+          },
+          {
+              "name": "Persian",
+              "id": "53",
+              "types": [
+                  "normal"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/053.png"
+          },
+          {
+              "name": "Psyduck",
+              "id": "54",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png"
+          },
+          {
+              "name": "Golduck",
+              "id": "55",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png"
+          },
+          {
+              "name": "Mankey",
+              "id": "56",
+              "types": [
+                  "fight"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png"
+          },
+          {
+              "name": "Primeape",
+              "id": "57",
+              "types": [
+                  "fight"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/057.png"
+          },
+          {
+              "name": "Growlithe",
+              "id": "58",
+              "types": [
+                  "fire"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png"
+          },
+          {
+              "name": "Arcanine",
+              "id": "59",
+              "types": [
+                  "fire"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png"
+          },
+          {
+              "name": "Poliwag",
+              "id": "60",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/060.png"
+          },
+          {
+              "name": "Poliwhirl",
+              "id": "61",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/061.png"
+          },
+          {
+              "name": "Poliwrath",
+              "id": "62",
+              "types": [
+                  "water",
+                  "fight"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/062.png"
+          },
+          {
+              "name": "Abra",
+              "id": "63",
+              "types": [
+                  "psychic"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png"
+          },
+          {
+              "name": "Kadabra",
+              "id": "64",
+              "types": [
+                  "psychic"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png"
+          },
+          {
+              "name": "Alakazam",
+              "id": "65",
+              "types": [
+                  "psychic"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png"
+          },
+          {
+              "name": "Machop",
+              "id": "66",
+              "types": [
+                  "fight"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png"
+          },
+          {
+              "name": "Machoke",
+              "id": "67",
+              "types": [
+                  "fight"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/067.png"
+          },
+          {
+              "name": "Machamp",
+              "id": "68",
+              "types": [
+                  "fight"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png"
+          },
+          {
+              "name": "Bellsprout",
+              "id": "69",
+              "types": [
+                  "grass",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/069.png"
+          },
+          {
+              "name": "Weepinbell",
+              "id": "70",
+              "types": [
+                  "grass",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/070.png"
+          },
+          {
+              "name": "Victreebel",
+              "id": "71",
+              "types": [
+                  "grass",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/071.png"
+          },
+          {
+              "name": "Tentacool",
+              "id": "72",
+              "types": [
+                  "water",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/072.png"
+          },
+          {
+              "name": "Tentacruel",
+              "id": "73",
+              "types": [
+                  "water",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/073.png"
+          },
+          {
+              "name": "Geodude",
+              "id": "74",
+              "types": [
+                  "rock",
+                  "ground"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png"
+          },
+          {
+              "name": "Graveler",
+              "id": "75",
+              "types": [
+                  "rock",
+                  "ground"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/075.png"
+          },
+          {
+              "name": "Golem",
+              "id": "76",
+              "types": [
+                  "rock",
+                  "ground"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/076.png"
+          },
+          {
+              "name": "Ponyta",
+              "id": "77",
+              "types": [
+                  "fire"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png"
+          },
+          {
+              "name": "Rapidash",
+              "id": "78",
+              "types": [
+                  "fire"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/078.png"
+          },
+          {
+              "name": "Slowpoke",
+              "id": "79",
+              "types": [
+                  "water",
+                  "psychic"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/079.png"
+          },
+          {
+              "name": "Slowbro",
+              "id": "80",
+              "types": [
+                  "water",
+                  "psychic"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/080.png"
+          },
+          {
+              "name": "Magnemite",
+              "id": "81",
+              "types": [
+                  "electric",
+                  "steel"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png"
+          },
+          {
+              "name": "Magneton",
+              "id": "82",
+              "types": [
+                  "electric",
+                  "steel"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/082.png"
+          },
+          {
+              "name": "Farfetch'd",
+              "id": "83",
+              "types": [
+                  "normal",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png"
+          },
+          {
+              "name": "Doduo",
+              "id": "84",
+              "types": [
+                  "normal",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/084.png"
+          },
+          {
+              "name": "Dodrio",
+              "id": "85",
+              "types": [
+                  "normal",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/085.png"
+          },
+          {
+              "name": "Seel",
+              "id": "86",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/086.png"
+          },
+          {
+              "name": "Dewgong",
+              "id": "87",
+              "types": [
+                  "water",
+                  "ice"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/087.png"
+          },
+          {
+              "name": "Grimer",
+              "id": "88",
+              "types": [
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png"
+          },
+          {
+              "name": "Muk",
+              "id": "89",
+              "types": [
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png"
+          },
+          {
+              "name": "Shellder",
+              "id": "90",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/090.png"
+          },
+          {
+              "name": "Cloyster",
+              "id": "91",
+              "types": [
+                  "water",
+                  "ice"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/091.png"
+          },
+          {
+              "name": "Gastly",
+              "id": "92",
+              "types": [
+                  "ghost",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png"
+          },
+          {
+              "name": "Haunter",
+              "id": "93",
+              "types": [
+                  "ghost",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png"
+          },
+          {
+              "name": "Gengar",
+              "id": "94",
+              "types": [
+                  "ghost",
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png"
+          },
+          {
+              "name": "Onix",
+              "id": "95",
+              "types": [
+                  "rock",
+                  "ground"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png"
+          },
+          {
+              "name": "Drowzee",
+              "id": "96",
+              "types": [
+                  "psychic"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/096.png"
+          },
+          {
+              "name": "Hypno",
+              "id": "97",
+              "types": [
+                  "psychic"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/097.png"
+          },
+          {
+              "name": "Krabby",
+              "id": "98",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png"
+          },
+          {
+              "name": "Kingler",
+              "id": "99",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png"
+          },
+          {
+              "name": "Voltorb",
+              "id": "100",
+              "types": [
+                  "electric"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png"
+          },
+          {
+              "name": "Electrode",
+              "id": "101",
+              "types": [
+                  "electric"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/101.png"
+          },
+          {
+              "name": "Exeggcute",
+              "id": "102",
+              "types": [
+                  "grass",
+                  "psychic"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/102.png"
+          },
+          {
+              "name": "Exeggutor",
+              "id": "103",
+              "types": [
+                  "grass",
+                  "psychic"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/103.png"
+          },
+          {
+              "name": "Cubone",
+              "id": "104",
+              "types": [
+                  "ground"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/104.png"
+          },
+          {
+              "name": "Marowak",
+              "id": "105",
+              "types": [
+                  "ground"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/105.png"
+          },
+          {
+              "name": "Hitmonlee",
+              "id": "106",
+              "types": [
+                  "fight"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/106.png"
+          },
+          {
+              "name": "Hitmonchan",
+              "id": "107",
+              "types": [
+                  "fight"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/107.png"
+          },
+          {
+              "name": "Lickitung",
+              "id": "108",
+              "types": [
+                  "normal"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/108.png"
+          },
+          {
+              "name": "Koffing",
+              "id": "109",
+              "types": [
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/109.png"
+          },
+          {
+              "name": "Weezing",
+              "id": "110",
+              "types": [
+                  "poison"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/110.png"
+          },
+          {
+              "name": "Rhyhorn",
+              "id": "111",
+              "types": [
+                  "ground",
+                  "rock"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/111.png"
+          },
+          {
+              "name": "Rhydon",
+              "id": "112",
+              "types": [
+                  "ground",
+                  "rock"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/112.png"
+          },
+          {
+              "name": "Chansey",
+              "id": "113",
+              "types": [
+                  "normal"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/113.png"
+          },
+          {
+              "name": "Tangela",
+              "id": "114",
+              "types": [
+                  "grass"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/114.png"
+          },
+          {
+              "name": "Kangaskhan",
+              "id": "115",
+              "types": [
+                  "normal"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/115.png"
+          },
+          {
+              "name": "Horsea",
+              "id": "116",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/116.png"
+          },
+          {
+              "name": "Seadra",
+              "id": "117",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/117.png"
+          },
+          {
+              "name": "Goldeen",
+              "id": "118",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/118.png"
+          },
+          {
+              "name": "Seaking",
+              "id": "119",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/119.png"
+          },
+          {
+              "name": "Staryu",
+              "id": "120",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/120.png"
+          },
+          {
+              "name": "Starmie",
+              "id": "121",
+              "types": [
+                  "water",
+                  "psychic"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/121.png"
+          },
+          {
+              "name": "Mr. Mime",
+              "id": "122",
+              "types": [
+                  "psychic",
+                  "fairy"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/122.png"
+          },
+          {
+              "name": "Scyther",
+              "id": "123",
+              "types": [
+                  "bug",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/123.png"
+          },
+          {
+              "name": "Electabuzz",
+              "id": "125",
+              "types": [
+                  "electric"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/125.png"
+          },
+          {
+              "name": "Magmar",
+              "id": "126",
+              "types": [
+                  "fire"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/126.png"
+          },
+          {
+              "name": "Pinsir",
+              "id": "127",
+              "types": [
+                  "bug"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/127.png"
+          },
+          {
+              "name": "Tauros",
+              "id": "128",
+              "types": [
+                  "normal"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/128.png"
+          },
+          {
+              "name": "Magikarp",
+              "id": "129",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png"
+          },
+          {
+              "name": "Gyarados",
+              "id": "130",
+              "types": [
+                  "water",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png"
+          },
+          {
+              "name": "Lapras",
+              "id": "131",
+              "types": [
+                  "water",
+                  "ice"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png"
+          },
+          {
+              "name": "Ditto",
+              "id": "132",
+              "types": [
+                  "normal"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png"
+          },
+          {
+              "name": "Eevee",
+              "id": "133",
+              "types": [
+                  "normal"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png"
+          },
+          {
+              "name": "Vaporeon",
+              "id": "134",
+              "types": [
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png"
+          },
+          {
+              "name": "Jolteon",
+              "id": "135",
+              "types": [
+                  "electric"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png"
+          },
+          {
+              "name": "Flareon",
+              "id": "136",
+              "types": [
+                  "fire"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png"
+          },
+          {
+              "name": "Porygon",
+              "id": "137",
+              "types": [
+                  "normal"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/137.png"
+          },
+          {
+              "name": "Omanyte",
+              "id": "138",
+              "types": [
+                  "rock",
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/138.png"
+          },
+          {
+              "name": "Omastar",
+              "id": "139",
+              "types": [
+                  "rock",
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/139.png"
+          },
+          {
+              "name": "Kabuto",
+              "id": "140",
+              "types": [
+                  "rock",
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/140.png"
+          },
+          {
+              "name": "Kabutops",
+              "id": "141",
+              "types": [
+                  "rock",
+                  "water"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/141.png"
+          },
+          {
+              "name": "Aerodactyl",
+              "id": "142",
+              "types": [
+                  "rock",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/142.png"
+          },
+          {
+              "name": "Snorlax",
+              "id": "143",
+              "types": [
+                  "normal"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png"
+          },
+          {
+              "name": "Articuno",
+              "id": "144",
+              "types": [
+                  "ice",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/144.png"
+          },
+          {
+              "name": "Zapdos",
+              "id": "145",
+              "types": [
+                  "electric",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/145.png"
+          },
+          {
+              "name": "Moltres",
+              "id": "146",
+              "types": [
+                  "fire",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/146.png"
+          },
+          {
+              "name": "Dratini",
+              "id": "147",
+              "types": [
+                  "dragon"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/147.png"
+          },
+          {
+              "name": "Dragonair",
+              "id": "148",
+              "types": [
+                  "dragon"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/148.png"
+          },
+          {
+              "name": "Dragonite",
+              "id": "149",
+              "types": [
+                  "dragon",
+                  "flying"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png"
+          },
+          {
+              "name": "Mewtwo",
+              "id": "150",
+              "types": [
+                  "psychic"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png"
+          },
+          {
+              "name": "Mew",
+              "id": "151",
+              "types": [
+                  "psychic"
+              ],
+              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png"
+          }
+      ]
+  },
+  "details": [
+      {
+          "name": "bulbasaur",
+          "id": "1",
+          "types": [
+              "grass",
+              "poison"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 45
+              },
+              {
+                  "name": "special-defense",
+                  "value": 65
+              },
+              {
+                  "name": "special-attack",
+                  "value": 65
+              },
+              {
+                  "name": "defense",
+                  "value": 49
+              },
+              {
+                  "name": "attack",
+                  "value": 49
+              },
+              {
+                  "name": "hp",
+                  "value": 45
+              }
+          ],
+          "description": "A strange seed was\nplanted on its\nback at birth.\fThe plant sprouts\nand grows with\nthis POKéMON."
+      },
+      {
+          "name": "ivysaur",
+          "id": "2",
+          "types": [
+              "grass",
+              "poison"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 60
+              },
+              {
+                  "name": "special-defense",
+                  "value": 80
+              },
+              {
+                  "name": "special-attack",
+                  "value": 80
+              },
+              {
+                  "name": "defense",
+                  "value": 63
+              },
+              {
+                  "name": "attack",
+                  "value": 62
+              },
+              {
+                  "name": "hp",
+                  "value": 60
+              }
+          ],
+          "description": "When the bulb on\nits back grows\nlarge, it appears\fto lose the\nability to stand\non its hind legs."
+      },
+      {
+          "name": "venusaur",
+          "id": "3",
+          "types": [
+              "grass",
+              "poison"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 80
+              },
+              {
+                  "name": "special-defense",
+                  "value": 100
+              },
+              {
+                  "name": "special-attack",
+                  "value": 100
+              },
+              {
+                  "name": "defense",
+                  "value": 83
+              },
+              {
+                  "name": "attack",
+                  "value": 82
+              },
+              {
+                  "name": "hp",
+                  "value": 80
+              }
+          ],
+          "description": "The plant blooms\nwhen it is\nabsorbing solar\fenergy. It stays\non the move to\nseek sunlight."
+      },
+      {
+          "name": "charmander",
+          "id": "4",
+          "types": [
+              "fire"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 65
+              },
+              {
+                  "name": "special-defense",
+                  "value": 50
+              },
+              {
+                  "name": "special-attack",
+                  "value": 60
+              },
+              {
+                  "name": "defense",
+                  "value": 43
+              },
+              {
+                  "name": "attack",
+                  "value": 52
+              },
+              {
+                  "name": "hp",
+                  "value": 39
+              }
+          ],
+          "description": "Obviously prefers\nhot places. When\nit rains, steam\fis said to spout\nfrom the tip of\nits tail."
+      },
+      {
+          "name": "charmeleon",
+          "id": "5",
+          "types": [
+              "fire"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 80
+              },
+              {
+                  "name": "special-defense",
+                  "value": 65
+              },
+              {
+                  "name": "special-attack",
+                  "value": 80
+              },
+              {
+                  "name": "defense",
+                  "value": 58
+              },
+              {
+                  "name": "attack",
+                  "value": 64
+              },
+              {
+                  "name": "hp",
+                  "value": 58
+              }
+          ],
+          "description": "When it swings\nits burning tail,\nit elevates the\ftemperature to\nunbearably high\nlevels."
+      },
+      {
+          "name": "charizard",
+          "id": "6",
+          "types": [
+              "fire",
+              "flying"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 100
+              },
+              {
+                  "name": "special-defense",
+                  "value": 85
+              },
+              {
+                  "name": "special-attack",
+                  "value": 109
+              },
+              {
+                  "name": "defense",
+                  "value": 78
+              },
+              {
+                  "name": "attack",
+                  "value": 84
+              },
+              {
+                  "name": "hp",
+                  "value": 78
+              }
+          ],
+          "description": "Spits fire that\nis hot enough to\nmelt boulders.\fKnown to cause\nforest fires\nunintentionally."
+      },
+      {
+          "name": "squirtle",
+          "id": "7",
+          "types": [
+              "water"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 43
+              },
+              {
+                  "name": "special-defense",
+                  "value": 64
+              },
+              {
+                  "name": "special-attack",
+                  "value": 50
+              },
+              {
+                  "name": "defense",
+                  "value": 65
+              },
+              {
+                  "name": "attack",
+                  "value": 48
+              },
+              {
+                  "name": "hp",
+                  "value": 44
+              }
+          ],
+          "description": "After birth, its\nback swells and\nhardens into a\fshell. Powerfully\nsprays foam from\nits mouth."
+      },
+      {
+          "name": "wartortle",
+          "id": "8",
+          "types": [
+              "water"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 58
+              },
+              {
+                  "name": "special-defense",
+                  "value": 80
+              },
+              {
+                  "name": "special-attack",
+                  "value": 65
+              },
+              {
+                  "name": "defense",
+                  "value": 80
+              },
+              {
+                  "name": "attack",
+                  "value": 63
+              },
+              {
+                  "name": "hp",
+                  "value": 59
+              }
+          ],
+          "description": "Often hides in\nwater to stalk\nunwary prey. For\fswimming fast, it\nmoves its ears to\nmaintain balance."
+      },
+      {
+          "name": "blastoise",
+          "id": "9",
+          "types": [
+              "water"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 78
+              },
+              {
+                  "name": "special-defense",
+                  "value": 105
+              },
+              {
+                  "name": "special-attack",
+                  "value": 85
+              },
+              {
+                  "name": "defense",
+                  "value": 100
+              },
+              {
+                  "name": "attack",
+                  "value": 83
+              },
+              {
+                  "name": "hp",
+                  "value": 79
+              }
+          ],
+          "description": "A brutal POKéMON\nwith pressurized\nwater jets on its\fshell. They are\nused for high\nspeed tackles."
+      },
+      {
+          "name": "caterpie",
+          "id": "10",
+          "types": [
+              "bug"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 45
+              },
+              {
+                  "name": "special-defense",
+                  "value": 20
+              },
+              {
+                  "name": "special-attack",
+                  "value": 20
+              },
+              {
+                  "name": "defense",
+                  "value": 35
+              },
+              {
+                  "name": "attack",
+                  "value": 30
+              },
+              {
+                  "name": "hp",
+                  "value": 45
+              }
+          ],
+          "description": "Its short feet\nare tipped with\nsuction pads that\fenable it to\ntirelessly climb\nslopes and walls."
+      },
+      {
+          "name": "metapod",
+          "id": "11",
+          "types": [
+              "bug"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 30
+              },
+              {
+                  "name": "special-defense",
+                  "value": 25
+              },
+              {
+                  "name": "special-attack",
+                  "value": 25
+              },
+              {
+                  "name": "defense",
+                  "value": 55
+              },
+              {
+                  "name": "attack",
+                  "value": 20
+              },
+              {
+                  "name": "hp",
+                  "value": 50
+              }
+          ],
+          "description": "This POKéMON is\nvulnerable to\nattack while its\fshell is soft,\nexposing its weak\nand tender body."
+      },
+      {
+          "name": "butterfree",
+          "id": "12",
+          "types": [
+              "bug",
+              "flying"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 70
+              },
+              {
+                  "name": "special-defense",
+                  "value": 80
+              },
+              {
+                  "name": "special-attack",
+                  "value": 90
+              },
+              {
+                  "name": "defense",
+                  "value": 50
+              },
+              {
+                  "name": "attack",
+                  "value": 45
+              },
+              {
+                  "name": "hp",
+                  "value": 60
+              }
+          ],
+          "description": "In battle, it\nflaps its wings\nat high speed to\frelease highly\ntoxic dust into\nthe air."
+      },
+      {
+          "name": "weedle",
+          "id": "13",
+          "types": [
+              "bug",
+              "poison"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 50
+              },
+              {
+                  "name": "special-defense",
+                  "value": 20
+              },
+              {
+                  "name": "special-attack",
+                  "value": 20
+              },
+              {
+                  "name": "defense",
+                  "value": 30
+              },
+              {
+                  "name": "attack",
+                  "value": 35
+              },
+              {
+                  "name": "hp",
+                  "value": 40
+              }
+          ],
+          "description": "Often found in\nforests, eating\nleaves.\fIt has a sharp\nvenomous stinger\non its head."
+      },
+      {
+          "name": "kakuna",
+          "id": "14",
+          "types": [
+              "bug",
+              "poison"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 35
+              },
+              {
+                  "name": "special-defense",
+                  "value": 25
+              },
+              {
+                  "name": "special-attack",
+                  "value": 25
+              },
+              {
+                  "name": "defense",
+                  "value": 50
+              },
+              {
+                  "name": "attack",
+                  "value": 25
+              },
+              {
+                  "name": "hp",
+                  "value": 45
+              }
+          ],
+          "description": "Almost incapable\nof moving, this\nPOKéMON can only\fharden its shell\nto protect itself\nfrom predators."
+      },
+      {
+          "name": "beedrill",
+          "id": "15",
+          "types": [
+              "bug",
+              "poison"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 75
+              },
+              {
+                  "name": "special-defense",
+                  "value": 80
+              },
+              {
+                  "name": "special-attack",
+                  "value": 45
+              },
+              {
+                  "name": "defense",
+                  "value": 40
+              },
+              {
+                  "name": "attack",
+                  "value": 90
+              },
+              {
+                  "name": "hp",
+                  "value": 65
+              }
+          ],
+          "description": "Flies at high\nspeed and attacks\nusing its large\fvenomous stingers\non its forelegs\nand tail."
+      },
+      {
+          "name": "pidgey",
+          "id": "16",
+          "types": [
+              "normal",
+              "flying"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 56
+              },
+              {
+                  "name": "special-defense",
+                  "value": 35
+              },
+              {
+                  "name": "special-attack",
+                  "value": 35
+              },
+              {
+                  "name": "defense",
+                  "value": 40
+              },
+              {
+                  "name": "attack",
+                  "value": 45
+              },
+              {
+                  "name": "hp",
+                  "value": 40
+              }
+          ],
+          "description": "A common sight in\nforests and woods.\nIt flaps its\fwings at ground\nlevel to kick up\nblinding sand."
+      },
+      {
+          "name": "pidgeotto",
+          "id": "17",
+          "types": [
+              "normal",
+              "flying"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 71
+              },
+              {
+                  "name": "special-defense",
+                  "value": 50
+              },
+              {
+                  "name": "special-attack",
+                  "value": 50
+              },
+              {
+                  "name": "defense",
+                  "value": 55
+              },
+              {
+                  "name": "attack",
+                  "value": 60
+              },
+              {
+                  "name": "hp",
+                  "value": 63
+              }
+          ],
+          "description": "Very protective\nof its sprawling\nterritorial area,\fthis POKéMON will\nfiercely peck at\nany intruder."
+      },
+      {
+          "name": "pidgeot",
+          "id": "18",
+          "types": [
+              "normal",
+              "flying"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 101
+              },
+              {
+                  "name": "special-defense",
+                  "value": 70
+              },
+              {
+                  "name": "special-attack",
+                  "value": 70
+              },
+              {
+                  "name": "defense",
+                  "value": 75
+              },
+              {
+                  "name": "attack",
+                  "value": 80
+              },
+              {
+                  "name": "hp",
+                  "value": 83
+              }
+          ],
+          "description": "When hunting, it\nskims the surface\nof water at high\fspeed to pick off\nunwary prey such\nas MAGIKARP."
+      },
+      {
+          "name": "rattata",
+          "id": "19",
+          "types": [
+              "normal"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 72
+              },
+              {
+                  "name": "special-defense",
+                  "value": 35
+              },
+              {
+                  "name": "special-attack",
+                  "value": 25
+              },
+              {
+                  "name": "defense",
+                  "value": 35
+              },
+              {
+                  "name": "attack",
+                  "value": 56
+              },
+              {
+                  "name": "hp",
+                  "value": 30
+              }
+          ],
+          "description": "Bites anything\nwhen it attacks.\nSmall and very\fquick, it is a\ncommon sight in\nmany places."
+      },
+      {
+          "name": "raticate",
+          "id": "20",
+          "types": [
+              "normal"
+          ],
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png",
+          "stats": [
+              {
+                  "name": "speed",
+                  "value": 97
+              },
+              {
+                  "name": "special-defense",
+                  "value": 70
+              },
+              {
+                  "name": "special-attack",
+                  "value": 50
+              },
+              {
+                  "name": "defense",
+                  "value": 60
+              },
+              {
+                  "name": "attack",
+                  "value": 81
+              },
+              {
+                  "name": "hp",
+                  "value": 55
+              }
+          ],
+          "description": "It uses its whis­\nkers to maintain\nits balance.\fIt apparently\nslows down if\nthey are cut off."
+      }
+  ],
+  "moves": [
+      {
+          "name": "tackle",
+          "learnLevel": 1,
+          "type": "normal"
+      },
+      {
+          "name": "growl",
+          "learnLevel": 1,
+          "type": "normal"
+      },
+      {
+          "name": "leech-seed",
+          "learnLevel": 7,
+          "type": "grass"
+      },
+      {
+          "name": "vine-whip",
+          "learnLevel": 13,
+          "type": "grass"
+      },
+      {
+          "name": "poison-powder",
+          "learnLevel": 20,
+          "type": "poison"
+      },
+      {
+          "name": "razor-leaf",
+          "learnLevel": 27,
+          "type": "grass"
+      },
+      {
+          "name": "growth",
+          "learnLevel": 34,
+          "type": "normal"
+      },
+      {
+          "name": "sleep-powder",
+          "learnLevel": 41,
+          "type": "grass"
+      },
+      {
+          "name": "solar-beam",
+          "learnLevel": 48,
+          "type": "grass"
+      }
+  ]
+}
