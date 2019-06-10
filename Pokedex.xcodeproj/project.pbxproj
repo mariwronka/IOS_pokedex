@@ -15,6 +15,9 @@
 		ABD8C94E22AAC55100AB3718 /* PokemonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD8C94D22AAC55100AB3718 /* PokemonType.swift */; };
 		ABD8C95122AAD76000AB3718 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD8C95022AAD75F00AB3718 /* UIViewExtensions.swift */; };
 		ABD8C95422AADA6F00AB3718 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD8C95322AADA6F00AB3718 /* GradientView.swift */; };
+		D202331722AEFB8F0086FB42 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202331622AEFB8F0086FB42 /* Move.swift */; };
+		D202331D22AEFF8D0086FB42 /* MoveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202331C22AEFF8D0086FB42 /* MoveListViewController.swift */; };
+		D202331F22AEFFD10086FB42 /* MovesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202331E22AEFFD10086FB42 /* MovesTableViewCell.swift */; };
 		D244FE7922ABE1860039DE09 /* RequestMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244FE7822ABE1860039DE09 /* RequestMaker.swift */; };
 		D244FE7B22ABE1F40039DE09 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244FE7A22ABE1F40039DE09 /* Pokemon.swift */; };
 		D244FE7D22ABF0730039DE09 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244FE7C22ABF0730039DE09 /* DesignableView.swift */; };
@@ -36,6 +39,9 @@
 		ABD8C95022AAD75F00AB3718 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		ABD8C95322AADA6F00AB3718 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		C19E682A7C5B407F900D2BD3 /* Pods-Pokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex.release.xcconfig"; path = "Target Support Files/Pods-Pokedex/Pods-Pokedex.release.xcconfig"; sourceTree = "<group>"; };
+		D202331622AEFB8F0086FB42 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		D202331C22AEFF8D0086FB42 /* MoveListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MoveListViewController.swift; path = ../Components/MoveListViewController.swift; sourceTree = "<group>"; };
+		D202331E22AEFFD10086FB42 /* MovesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovesTableViewCell.swift; sourceTree = "<group>"; };
 		D244FE7822ABE1860039DE09 /* RequestMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMaker.swift; sourceTree = "<group>"; };
 		D244FE7A22ABE1F40039DE09 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		D244FE7C22ABF0730039DE09 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
@@ -88,17 +94,16 @@
 		ABD8C93922AAC4FA00AB3718 /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
-				D278F79E22AC32AB00742FA9 /* ViewControllers */,
-				D278F79022AC120300742FA9 /* Components */,
+				ABD8C94622AAC4FC00AB3718 /* Info.plist */,
+				ABD8C93A22AAC4FA00AB3718 /* AppDelegate.swift */,
+				ABD8C94122AAC4FC00AB3718 /* Assets.xcassets */,
 				D244FE7722ABE16D0039DE09 /* Api */,
+				D278F79022AC120300742FA9 /* Components */,
 				ABD8C95222AADA6200AB3718 /* CustomViews */,
 				ABD8C94F22AAD74E00AB3718 /* Extensions */,
 				ABD8C94C22AAC53F00AB3718 /* Models */,
-				ABD8C93A22AAC4FA00AB3718 /* AppDelegate.swift */,
-				ABD8C93E22AAC4FA00AB3718 /* Main.storyboard */,
-				ABD8C94122AAC4FC00AB3718 /* Assets.xcassets */,
-				ABD8C94322AAC4FC00AB3718 /* LaunchScreen.storyboard */,
-				ABD8C94622AAC4FC00AB3718 /* Info.plist */,
+				D202332022AF011D0086FB42 /* Storyboads */,
+				D278F79E22AC32AB00742FA9 /* ViewControllers */,
 			);
 			path = Pokedex;
 			sourceTree = "<group>";
@@ -108,6 +113,7 @@
 			children = (
 				ABD8C94D22AAC55100AB3718 /* PokemonType.swift */,
 				D244FE7A22ABE1F40039DE09 /* Pokemon.swift */,
+				D202331622AEFB8F0086FB42 /* Move.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -138,6 +144,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D202332022AF011D0086FB42 /* Storyboads */ = {
+			isa = PBXGroup;
+			children = (
+				ABD8C93E22AAC4FA00AB3718 /* Main.storyboard */,
+				ABD8C94322AAC4FC00AB3718 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboads;
+			sourceTree = "<group>";
+		};
 		D244FE7722ABE16D0039DE09 /* Api */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				D278F79122AC121900742FA9 /* PokemonTableViewCell.swift */,
+				D202331E22AEFFD10086FB42 /* MovesTableViewCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -157,6 +173,7 @@
 		D278F79E22AC32AB00742FA9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				D202331C22AEFF8D0086FB42 /* MoveListViewController.swift */,
 				D278F79C22AC32A100742FA9 /* PokemonListViewController.swift */,
 				D278F79F22AC349900742FA9 /* DetailViewController.swift */,
 			);
@@ -284,10 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D202331F22AEFFD10086FB42 /* MovesTableViewCell.swift in Sources */,
 				D278F7A022AC349900742FA9 /* DetailViewController.swift in Sources */,
+				D202331D22AEFF8D0086FB42 /* MoveListViewController.swift in Sources */,
 				D278F79222AC121900742FA9 /* PokemonTableViewCell.swift in Sources */,
 				D244FE7D22ABF0730039DE09 /* DesignableView.swift in Sources */,
 				D244FE7B22ABE1F40039DE09 /* Pokemon.swift in Sources */,
+				D202331722AEFB8F0086FB42 /* Move.swift in Sources */,
 				ABD8C94E22AAC55100AB3718 /* PokemonType.swift in Sources */,
 				ABD8C95422AADA6F00AB3718 /* GradientView.swift in Sources */,
 				ABD8C95122AAD76000AB3718 /* UIViewExtensions.swift in Sources */,

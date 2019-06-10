@@ -1980,51 +1980,53 @@
           "description": "It uses its whis­\nkers to maintain\nits balance.\fIt apparently\nslows down if\nthey are cut off."
       }
   ],
-  "moves": [
-      {
-          "name": "tackle",
-          "learnLevel": 1,
-          "type": "normal"
-      },
-      {
-          "name": "growl",
-          "learnLevel": 1,
-          "type": "normal"
-      },
-      {
-          "name": "leech-seed",
-          "learnLevel": 7,
-          "type": "grass"
-      },
-      {
-          "name": "vine-whip",
-          "learnLevel": 13,
-          "type": "grass"
-      },
-      {
-          "name": "poison-powder",
-          "learnLevel": 20,
-          "type": "poison"
-      },
-      {
-          "name": "razor-leaf",
-          "learnLevel": 27,
-          "type": "grass"
-      },
-      {
-          "name": "growth",
-          "learnLevel": 34,
-          "type": "normal"
-      },
-      {
-          "name": "sleep-powder",
-          "learnLevel": 41,
-          "type": "grass"
-      },
-      {
-          "name": "solar-beam",
-          "learnLevel": 48,
-          "type": "grass"
-      }
-  ]
+  "moves": {
+      "moves": [
+        {
+            "name": "tackle",
+            "learnLevel": 1,
+            "type": "normal"
+        },
+        {
+            "name": "growl",
+            "learnLevel": 1,
+            "type": "normal"
+        },
+        {
+            "name": "leech-seed",
+            "learnLevel": 7,
+            "type": "grass"
+        },
+        {
+            "name": "vine-whip",
+            "learnLevel": 13,
+            "type": "grass"
+        },
+        {
+            "name": "poison-powder",
+            "learnLevel": 20,
+            "type": "poison"
+        },
+        {
+            "name": "razor-leaf",
+            "learnLevel": 27,
+            "type": "grass"
+        },
+        {
+            "name": "growth",
+            "learnLevel": 34,
+            "type": "normal"
+        },
+        {
+            "name": "sleep-powder",
+            "learnLevel": 41,
+            "type": "grass"
+        },
+        {
+            "name": "solar-beam",
+            "learnLevel": 48,
+            "type": "grass"
+        }
+      ]
+  }
 }

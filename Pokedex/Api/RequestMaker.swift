@@ -13,6 +13,7 @@ class RequestMaker {
     enum Endpoint {
         case list
         case details(query: String)
+        case move
         
         var url: String {
             switch self {
@@ -20,6 +21,8 @@ class RequestMaker {
                 return "list"
             case let .details(query):
                 return "details/\(query)"
+            case .move:
+                return "moves"
             }
         }
         
@@ -29,6 +32,8 @@ class RequestMaker {
                 return PokemonList.self
             case .details:
                 return Pokemon.self
+            case .move:
+                return MoveList.self
             }
         }
     }
