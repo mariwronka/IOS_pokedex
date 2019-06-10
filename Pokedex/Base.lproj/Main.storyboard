@@ -64,7 +64,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="fDc-3z-2AD">
                                                     <rect key="frame" x="20" y="17.333333333333329" width="374" height="40"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="N2i-Aw-wW9">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_no_pokeball" translatesAutoresizingMaskIntoConstraints="NO" id="N2i-Aw-wW9">
                                                             <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="40" id="4LG-92-wgS"/>
@@ -208,7 +208,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="w7X-P1-WnQ">
                                                     <rect key="frame" x="20" y="10" width="374" height="55"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HLG-VX-dFy">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_no_pokemon" translatesAutoresizingMaskIntoConstraints="NO" id="HLG-VX-dFy">
                                                             <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="55" id="WOd-Y1-jRl"/>
@@ -496,6 +496,8 @@
         <image name="ic_grass" width="13" height="14"/>
         <image name="ic_itens" width="28" height="28"/>
         <image name="ic_moves" width="26" height="26"/>
+        <image name="ic_no_pokeball" width="40" height="40"/>
+        <image name="ic_no_pokemon" width="70" height="70"/>
         <image name="ic_pikachu" width="28" height="29"/>
         <image name="ic_poison" width="15" height="15"/>
         <image name="ic_price" width="21" height="30"/>
