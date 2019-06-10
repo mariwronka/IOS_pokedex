@@ -1,5 +1,5 @@
 # Pokedex
-O Pokedex é uma aplicação simples desenvolvida para iOS utilizando Swift 4.2. Não é um jogo oficial mas contém dados detalhados sobre cada Pokémon pra _primeira geração_. 
+O Pokedex é uma aplicação simples desenvolvida para iOS utilizando Swift 4.2. Não é um jogo oficial mas contém dados detalhados sobre cada Pokémon pra __primeira geração__. 
 
 ### Como Funciona
 A Pokedex é uma enciclopédia virtual portátil de alta tecnologia que os treinadores Pokemon transportam para registrar todas as espécies diferentes de Pokemon que são encontradas durante a sua viagem como treinadores. 
