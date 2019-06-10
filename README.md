@@ -8,3 +8,6 @@ A Pokedex é uma enciclopédia virtual portátil de alta tecnologia que os trein
 * Utilizei um *JSON* com as informações sobre os Pokemons rolando localmente no Server
 * A aplicaçao está separada por `Groups` para tornar a organização um pouco mais simples.
 * Já o possível navegar entre as 3 tabs criadas na tela principal. São elas `pokemons`, `moves`, `itens`
+
+##
+![pokedex](https://user-images.githubusercontent.com/12899445/59170079-52b8e800-8b13-11e9-8c6f-096a54676328.png)
