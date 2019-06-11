@@ -32,7 +32,10 @@ class MoveListViewController: UIViewController, UISearchControllerDelegate {
         let searchBar = UISearchController(searchResultsController: nil)
         
         searchBar.delegate = self
-        searchBar.setLayoutSearchController(tintColor: #colorLiteral(red: 0.370555222, green: 0.3705646992, blue: 0.3705595732, alpha: 1), barTintColor: #colorLiteral(red: 0.370555222, green: 0.3705646992, blue: 0.3705595732, alpha: 1), backgroundColor: #colorLiteral(red: 0.9215686275, green: 0.9215686275, blue: 0.9215686275, alpha: 0.6), cornerRadius: 18)
+        searchBar.setLayoutSearchController(tintColor: #colorLiteral(red: 0.370555222, green: 0.3705646992, blue: 0.3705595732, alpha: 1),
+                                            barTintColor: #colorLiteral(red: 0.370555222, green: 0.3705646992, blue: 0.3705595732, alpha: 1),
+                                            backgroundColor: #colorLiteral(red: 0.9215686275, green: 0.9215686275, blue: 0.9215686275, alpha: 0.6),
+                                            cornerRadius: 18)
         
         navigationItem.searchController = searchBar
     }
