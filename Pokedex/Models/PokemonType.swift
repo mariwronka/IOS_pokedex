@@ -28,7 +28,6 @@ enum PokemonType: String, Codable {
     case steel
     case water
     case electric
-    case fighting
     
     var icon: UIImage? {
         return UIImage(named: "ic_\(self.rawValue)")

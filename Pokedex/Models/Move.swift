@@ -10,6 +10,5 @@ import Foundation
 
 struct Move: Codable {
     let name: String
-    let learnLevel: Int
     let type: PokemonType
 }
