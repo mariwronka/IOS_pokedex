@@ -63,9 +63,9 @@ extension MoveListViewController: UITableViewDelegate {
 extension MoveListViewController {
     
     func fetchData() {
-        requestMaker.make(withEndpoint: .move) {
-            (moveList: MoveList) in
-            self.moveList = moveList.moves
+        requestMaker.make(withEndpoint: .move) { 
+            (moves: [Move]) in
+            self.moveList = moves
             DispatchQueue.main.async {
                 self.tableView.reloadData()
             }

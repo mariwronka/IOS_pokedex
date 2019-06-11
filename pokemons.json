@@ -1980,8 +1980,7 @@
           "description": "It uses its whis­\nkers to maintain\nits balance.\fIt apparently\nslows down if\nthey are cut off."
       }
   ],
-  "moves": {
-      "moves": [
+    "moves": [
         {
             "name": "tackle",
             "learnLevel": 1,
@@ -2027,6 +2026,5 @@
             "learnLevel": 48,
             "type": "grass"
         }
-      ]
-  }
+    ]
 }

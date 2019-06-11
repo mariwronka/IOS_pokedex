@@ -8,8 +8,6 @@
 
 import Foundation
 
-struct MoveList: Codable { var moves: [Move] }
-
 struct Move: Codable {
     let name: String
     let learnLevel: Int

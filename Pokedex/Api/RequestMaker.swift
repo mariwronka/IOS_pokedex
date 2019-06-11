@@ -33,7 +33,7 @@ class RequestMaker {
             case .details:
                 return Pokemon.self
             case .move:
-                return MoveList.self
+                return [Move].self
             }
         }
     }
