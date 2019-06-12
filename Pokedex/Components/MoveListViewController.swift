@@ -61,6 +61,12 @@ extension MoveListViewController: UITableViewDataSource {
 
 extension MoveListViewController: UITableViewDelegate {
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = self.storyboard
+        if let detailViewController = storyboard?.instantiateViewController(withIdentifier: "MoveDetailViewController") {
+            self.navigationController?.present(detailViewController, animated: true)
+        }
+    }
 }
 
 extension MoveListViewController {

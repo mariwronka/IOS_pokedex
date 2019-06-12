@@ -27,11 +27,18 @@ extension UIView {
     }
     
     func addShadow() {
-        layer.shadowColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
+        layer.shadowColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 0.5)
         layer.shadowOffset = CGSize(width: 0, height: 0)
         layer.shadowOpacity = 0.5
         layer.shadowRadius = 5
         clipsToBounds = false
+    }
+}
+
+extension UIView {
+    func asCircle() {
+        self.layer.cornerRadius = self.frame.width / 2;
+        self.layer.masksToBounds = true
     }
 }
 

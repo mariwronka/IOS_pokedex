@@ -1,9 +1,7 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
-
-    @IBOutlet weak var tableView: UITableView!
+class PokemonDetailViewController: UIViewController {
 
     @IBAction func backAction(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
@@ -11,7 +9,7 @@ class DetailViewController: UIViewController {
     
 }
 
-extension DetailViewController: UITableViewDelegate {
+extension PokemonDetailViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         if section == 0 {
@@ -25,7 +23,7 @@ extension DetailViewController: UITableViewDelegate {
     
 }
 
-extension DetailViewController: UITableViewDataSource {
+extension PokemonDetailViewController: UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 2

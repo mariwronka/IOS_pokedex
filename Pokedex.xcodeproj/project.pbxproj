@@ -18,13 +18,15 @@
 		D202331722AEFB8F0086FB42 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202331622AEFB8F0086FB42 /* Move.swift */; };
 		D202331D22AEFF8D0086FB42 /* MoveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202331C22AEFF8D0086FB42 /* MoveListViewController.swift */; };
 		D202331F22AEFFD10086FB42 /* MovesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202331E22AEFFD10086FB42 /* MovesTableViewCell.swift */; };
+		D236605E22B05D520011549A /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D236605D22B05D520011549A /* DesignableView.swift */; };
+		D236606022B0A4440011549A /* MoveDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D236605F22B0A4440011549A /* MoveDetailViewController.swift */; };
 		D244FE7922ABE1860039DE09 /* RequestMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244FE7822ABE1860039DE09 /* RequestMaker.swift */; };
 		D244FE7B22ABE1F40039DE09 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244FE7A22ABE1F40039DE09 /* Pokemon.swift */; };
-		D244FE7D22ABF0730039DE09 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244FE7C22ABF0730039DE09 /* DesignableView.swift */; };
+		D244FE7D22ABF0730039DE09 /* TypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244FE7C22ABF0730039DE09 /* TypeView.swift */; };
 		D278F79222AC121900742FA9 /* PokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D278F79122AC121900742FA9 /* PokemonTableViewCell.swift */; };
 		D278F79422AC20CB00742FA9 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D278F79322AC20CB00742FA9 /* UIImageViewExtensions.swift */; };
 		D278F79D22AC32A100742FA9 /* PokemonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D278F79C22AC32A100742FA9 /* PokemonListViewController.swift */; };
-		D278F7A022AC349900742FA9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D278F79F22AC349900742FA9 /* DetailViewController.swift */; };
+		D278F7A022AC349900742FA9 /* PokemonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D278F79F22AC349900742FA9 /* PokemonDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,13 +44,15 @@
 		D202331622AEFB8F0086FB42 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 		D202331C22AEFF8D0086FB42 /* MoveListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MoveListViewController.swift; path = ../Components/MoveListViewController.swift; sourceTree = "<group>"; };
 		D202331E22AEFFD10086FB42 /* MovesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovesTableViewCell.swift; sourceTree = "<group>"; };
+		D236605D22B05D520011549A /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		D236605F22B0A4440011549A /* MoveDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveDetailViewController.swift; sourceTree = "<group>"; };
 		D244FE7822ABE1860039DE09 /* RequestMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMaker.swift; sourceTree = "<group>"; };
 		D244FE7A22ABE1F40039DE09 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
-		D244FE7C22ABF0730039DE09 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		D244FE7C22ABF0730039DE09 /* TypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeView.swift; sourceTree = "<group>"; };
 		D278F79122AC121900742FA9 /* PokemonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTableViewCell.swift; sourceTree = "<group>"; };
 		D278F79322AC20CB00742FA9 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
 		D278F79C22AC32A100742FA9 /* PokemonListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonListViewController.swift; sourceTree = "<group>"; };
-		D278F79F22AC349900742FA9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D278F79F22AC349900742FA9 /* PokemonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailViewController.swift; sourceTree = "<group>"; };
 		F971D046DECCDE613A6170D3 /* Pods-Pokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex.debug.xcconfig"; path = "Target Support Files/Pods-Pokedex/Pods-Pokedex.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,8 +134,9 @@
 		ABD8C95222AADA6200AB3718 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				D244FE7C22ABF0730039DE09 /* DesignableView.swift */,
+				D244FE7C22ABF0730039DE09 /* TypeView.swift */,
 				ABD8C95322AADA6F00AB3718 /* GradientView.swift */,
+				D236605D22B05D520011549A /* DesignableView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -175,7 +180,8 @@
 			children = (
 				D202331C22AEFF8D0086FB42 /* MoveListViewController.swift */,
 				D278F79C22AC32A100742FA9 /* PokemonListViewController.swift */,
-				D278F79F22AC349900742FA9 /* DetailViewController.swift */,
+				D278F79F22AC349900742FA9 /* PokemonDetailViewController.swift */,
+				D236605F22B0A4440011549A /* MoveDetailViewController.swift */,
 			);
 			name = ViewControllers;
 			path = "New Group";
@@ -302,13 +308,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D202331F22AEFFD10086FB42 /* MovesTableViewCell.swift in Sources */,
-				D278F7A022AC349900742FA9 /* DetailViewController.swift in Sources */,
+				D278F7A022AC349900742FA9 /* PokemonDetailViewController.swift in Sources */,
+				D236606022B0A4440011549A /* MoveDetailViewController.swift in Sources */,
 				D202331D22AEFF8D0086FB42 /* MoveListViewController.swift in Sources */,
 				D278F79222AC121900742FA9 /* PokemonTableViewCell.swift in Sources */,
-				D244FE7D22ABF0730039DE09 /* DesignableView.swift in Sources */,
+				D244FE7D22ABF0730039DE09 /* TypeView.swift in Sources */,
 				D244FE7B22ABE1F40039DE09 /* Pokemon.swift in Sources */,
 				D202331722AEFB8F0086FB42 /* Move.swift in Sources */,
 				ABD8C94E22AAC55100AB3718 /* PokemonType.swift in Sources */,
+				D236605E22B05D520011549A /* DesignableView.swift in Sources */,
 				ABD8C95422AADA6F00AB3718 /* GradientView.swift in Sources */,
 				ABD8C95122AAD76000AB3718 /* UIViewExtensions.swift in Sources */,
 				ABD8C93B22AAC4FA00AB3718 /* AppDelegate.swift in Sources */,
