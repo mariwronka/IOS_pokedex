@@ -12,6 +12,8 @@ class MoveListViewController: UIViewController, UISearchControllerDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
+    @IBOutlet weak var activityIndicatorView: UIView!
+    
     var moveList = [Move]()
     
     let requestMaker = RequestMaker()
@@ -76,6 +78,7 @@ extension MoveListViewController {
             (moves: [Move]) in
             self.moveList = moves
             DispatchQueue.main.async {
+                self.activityIndicatorView.isHidden = true
                 self.tableView.reloadData()
             }
         }

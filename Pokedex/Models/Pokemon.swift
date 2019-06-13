@@ -16,5 +16,12 @@ struct Pokemon : Codable {
     let name: String
     let image: String
     let types: [PokemonType]
+    let description: String?
+    let status: [Status]?
     
+}
+
+struct Status: Codable {
+    let value: Int
+    let name: String
 }

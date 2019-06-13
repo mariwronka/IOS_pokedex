@@ -23,10 +23,14 @@
 		D244FE7922ABE1860039DE09 /* RequestMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244FE7822ABE1860039DE09 /* RequestMaker.swift */; };
 		D244FE7B22ABE1F40039DE09 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244FE7A22ABE1F40039DE09 /* Pokemon.swift */; };
 		D244FE7D22ABF0730039DE09 /* TypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244FE7C22ABF0730039DE09 /* TypeView.swift */; };
+		D262AD7822B1EFBB00696474 /* UIProgressViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D262AD7722B1EFBB00696474 /* UIProgressViewExtension.swift */; };
 		D278F79222AC121900742FA9 /* PokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D278F79122AC121900742FA9 /* PokemonTableViewCell.swift */; };
 		D278F79422AC20CB00742FA9 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D278F79322AC20CB00742FA9 /* UIImageViewExtensions.swift */; };
 		D278F79D22AC32A100742FA9 /* PokemonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D278F79C22AC32A100742FA9 /* PokemonListViewController.swift */; };
 		D278F7A022AC349900742FA9 /* PokemonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D278F79F22AC349900742FA9 /* PokemonDetailViewController.swift */; };
+		D28CCECA22B126E100079240 /* UIColorViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28CCEC922B126E100079240 /* UIColorViewExtension.swift */; };
+		D28CCECC22B1411400079240 /* PokemonTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28CCECB22B1411400079240 /* PokemonTypeView.swift */; };
+		D28CCECE22B1417900079240 /* PokemonTypeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D28CCECD22B1417900079240 /* PokemonTypeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,10 +53,14 @@
 		D244FE7822ABE1860039DE09 /* RequestMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMaker.swift; sourceTree = "<group>"; };
 		D244FE7A22ABE1F40039DE09 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		D244FE7C22ABF0730039DE09 /* TypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeView.swift; sourceTree = "<group>"; };
+		D262AD7722B1EFBB00696474 /* UIProgressViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewExtension.swift; sourceTree = "<group>"; };
 		D278F79122AC121900742FA9 /* PokemonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTableViewCell.swift; sourceTree = "<group>"; };
 		D278F79322AC20CB00742FA9 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
 		D278F79C22AC32A100742FA9 /* PokemonListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonListViewController.swift; sourceTree = "<group>"; };
 		D278F79F22AC349900742FA9 /* PokemonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailViewController.swift; sourceTree = "<group>"; };
+		D28CCEC922B126E100079240 /* UIColorViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorViewExtension.swift; sourceTree = "<group>"; };
+		D28CCECB22B1411400079240 /* PokemonTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTypeView.swift; sourceTree = "<group>"; };
+		D28CCECD22B1417900079240 /* PokemonTypeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonTypeView.xib; sourceTree = "<group>"; };
 		F971D046DECCDE613A6170D3 /* Pods-Pokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex.debug.xcconfig"; path = "Target Support Files/Pods-Pokedex/Pods-Pokedex.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +135,8 @@
 			children = (
 				ABD8C95022AAD75F00AB3718 /* UIViewExtensions.swift */,
 				D278F79322AC20CB00742FA9 /* UIImageViewExtensions.swift */,
+				D28CCEC922B126E100079240 /* UIColorViewExtension.swift */,
+				D262AD7722B1EFBB00696474 /* UIProgressViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -137,6 +147,7 @@
 				D244FE7C22ABF0730039DE09 /* TypeView.swift */,
 				ABD8C95322AADA6F00AB3718 /* GradientView.swift */,
 				D236605D22B05D520011549A /* DesignableView.swift */,
+				D28CCECF22B1418400079240 /* PokemonTypeView */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -185,6 +196,15 @@
 			);
 			name = ViewControllers;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		D28CCECF22B1418400079240 /* PokemonTypeView */ = {
+			isa = PBXGroup;
+			children = (
+				D28CCECB22B1411400079240 /* PokemonTypeView.swift */,
+				D28CCECD22B1417900079240 /* PokemonTypeView.xib */,
+			);
+			path = PokemonTypeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +269,7 @@
 			files = (
 				ABD8C94522AAC4FC00AB3718 /* LaunchScreen.storyboard in Resources */,
 				ABD8C94222AAC4FC00AB3718 /* Assets.xcassets in Resources */,
+				D28CCECE22B1417900079240 /* PokemonTypeView.xib in Resources */,
 				ABD8C94022AAC4FA00AB3718 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,8 +339,11 @@
 				ABD8C94E22AAC55100AB3718 /* PokemonType.swift in Sources */,
 				D236605E22B05D520011549A /* DesignableView.swift in Sources */,
 				ABD8C95422AADA6F00AB3718 /* GradientView.swift in Sources */,
+				D28CCECA22B126E100079240 /* UIColorViewExtension.swift in Sources */,
 				ABD8C95122AAD76000AB3718 /* UIViewExtensions.swift in Sources */,
+				D262AD7822B1EFBB00696474 /* UIProgressViewExtension.swift in Sources */,
 				ABD8C93B22AAC4FA00AB3718 /* AppDelegate.swift in Sources */,
+				D28CCECC22B1411400079240 /* PokemonTypeView.swift in Sources */,
 				D278F79422AC20CB00742FA9 /* UIImageViewExtensions.swift in Sources */,
 				D244FE7922ABE1860039DE09 /* RequestMaker.swift in Sources */,
 				D278F79D22AC32A100742FA9 /* PokemonListViewController.swift in Sources */,
