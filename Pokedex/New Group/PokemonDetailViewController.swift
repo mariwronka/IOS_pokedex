@@ -25,6 +25,8 @@ class PokemonDetailViewController: UIViewController {
     
     @IBOutlet var progressArray: [UIProgressView]!
     
+    @IBOutlet weak var descriptionViewLabel: UILabel!
+    
     @IBAction func backAction(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
@@ -54,6 +56,7 @@ class PokemonDetailViewController: UIViewController {
             requestMaker.make(withEndpoint: .details(query: pokemon.id)) {
                 (pokemon: Pokemon) in
                 self.animateImagePokemonToTop()
+                
             }
         }
     }
