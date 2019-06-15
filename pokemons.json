@@ -267,7 +267,7 @@
                 "image": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/028.png"
             },
             {
-                "name": "Nidoran-f",
+                "name": "Nidoran♀",
                 "description": "Nidoran has barbs that secrete a powerful poison. They are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.",
                 "types": [
                     "poison"
@@ -295,7 +295,7 @@
                 "image": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/031.png"
             },
             {
-                "name": "Nidoran-m",
+                "name": "Nidoran♂",
                 "description": "Nidoran has developed muscles for moving its ears. Thanks to them, the ears can be freely moved in any direction. Even the slightest sound does not escape this Pokémon's notice.",
                 "types": [
                     "poison"
@@ -2424,7 +2424,7 @@
             ]
         },
         {
-            "name": "Nidoran-f",
+            "name": "Nidoran♀",
             "description": "Nidoran has barbs that secrete a powerful poison. They are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.",
             "types": [
                 "poison"
@@ -2530,7 +2530,7 @@
             ]
         },
         {
-            "name": "Nidoran-m",
+            "name": "Nidoran♂",
             "description": "Nidoran has developed muscles for moving its ears. Thanks to them, the ears can be freely moved in any direction. Even the slightest sound does not escape this Pokémon's notice.",
             "types": [
                 "poison"
