@@ -90,7 +90,9 @@ class PokemonDetailViewController: UIViewController {
                 self.backgroudView.alpha = 1
                 self.imageView.alpha = 1
                 self.view.layoutIfNeeded()
-            })
+            }/*, completion: { (ok: Bool) in
+                self.configProgress(statsArray: self.pokemon?.stats)
+            })*/)
         }
     }
     
@@ -128,22 +130,22 @@ class PokemonDetailViewController: UIViewController {
                 
                 switch name {
                 case "SPEED":
-                    progressLabelSPD.text = String(format: "%03d", value)
+                    progressLabelSPD.text = String(format: "%03d", stat.value)
                     progressSPD.progress = Float(value/100)
                 case "SPECIAL-DEFENSE":
-                    progressLabelSDEF.text = String(format: "%03d", value)
+                    progressLabelSDEF.text = String(format: "%03d", stat.value)
                     progressSDEF.progress = Float(value/100)
                 case "SPECIAL-ATTACK":
-                    progressLabelSTACK.text = String(format: "%03d", value)
+                    progressLabelSTACK.text = String(format: "%03d", stat.value)
                     progressSTACK.progress = Float(value/100)
                 case "DEFENSE":
-                    progressLabelDEF.text = String(format: "%03d", value)
+                    progressLabelDEF.text = String(format: "%03d", stat.value)
                     progressDEF.progress = Float(value/100)
                 case "ATTACK":
-                    progressLabelATK.text = String(format: "%03d", value)
+                    progressLabelATK.text = String(format: "%03d", stat.value)
                     progressATK.progress = Float(value/100)
                 case "HP":
-                    progressLabelHP.text = String(format: "%03d", value)
+                    progressLabelHP.text = String(format: "%03d", stat.value)
                     progressHP.progress = Float(value/100)
                 default:
                     return
