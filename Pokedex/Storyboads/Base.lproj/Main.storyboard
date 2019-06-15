@@ -359,7 +359,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yk2-Qz-hhU" customClass="DesignableView" customModule="Pokedex" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="190" width="414" height="606"/>
+                                        <rect key="frame" x="0.0" y="398" width="414" height="398"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokémon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CrA-PY-mHQ">
                                                 <rect key="frame" x="20" y="45" width="374" height="54.666666666666657"/>
@@ -380,13 +380,13 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inflicts regular damage. Has a 10% chance to lower the target’s Speed by one stage." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3f-kH-eNf" userLabel="Inflicts regular damage. Has a 10% chance to  lower the target’s Speed by one stage.">
-                                                <rect key="frame" x="30" y="159.66666666666669" width="354" height="41"/>
+                                                <rect key="frame" x="30" y="159.66666666666663" width="354" height="41"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                 <color key="textColor" name="dark"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="START" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJ3-FY-Tvi">
-                                                <rect key="frame" x="20" y="220.66666666666669" width="374" height="19.333333333333343"/>
+                                                <rect key="frame" x="20" y="220.66666666666663" width="374" height="19.333333333333343"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="14"/>
                                                 <color key="textColor" red="0.92146831750869751" green="0.92162626981735229" blue="0.92145836353302002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -404,7 +404,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="SPD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFL-pt-yVL">
-                                                                <rect key="frame" x="0.0" y="35.333333333333314" width="27.333333333333332" height="19.333333333333329"/>
+                                                                <rect key="frame" x="0.0" y="35.333333333333371" width="27.333333333333332" height="19.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="14"/>
                                                                 <color key="textColor" red="0.92146831750869751" green="0.92162626981735229" blue="0.92145836353302002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -448,7 +448,7 @@
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cCe-zM-9Rg" userLabel="Progress">
-                                                                        <rect key="frame" x="45.333333333333329" y="9.3333333333333144" width="249.33333333333337" height="2"/>
+                                                                        <rect key="frame" x="45.333333333333329" y="9.3333333333333712" width="249.33333333333337" height="2"/>
                                                                         <color key="tintColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="trackTintColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <userDefinedRuntimeAttributes>
@@ -460,7 +460,7 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="cMD-XC-F55">
-                                                                <rect key="frame" x="0.0" y="36.666666666666686" width="294.66666666666669" height="20.666666666666671"/>
+                                                                <rect key="frame" x="0.0" y="36.666666666666629" width="294.66666666666669" height="20.666666666666671"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cn-Lr-fZ7" userLabel="Label">
                                                                         <rect key="frame" x="0.0" y="0.0" width="25.333333333333332" height="20.666666666666668"/>
@@ -469,9 +469,8 @@
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.40000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="DKH-J5-TEg" userLabel="Progress">
-                                                                        <rect key="frame" x="45.333333333333329" y="9.3333333333333144" width="249.33333333333337" height="2"/>
+                                                                        <rect key="frame" x="45.333333333333329" y="9.3333333333333712" width="249.33333333333337" height="2"/>
                                                                         <color key="tintColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                        <color key="progressTintColor" name="fight"/>
                                                                         <color key="trackTintColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <userDefinedRuntimeAttributes>
                                                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -594,7 +593,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Gn-uf-fGu">
-                                        <rect key="frame" x="127" y="70" width="160" height="160"/>
+                                        <rect key="frame" x="127" y="288" width="160" height="160"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="160" id="4gf-Ia-d55"/>
                                             <constraint firstAttribute="height" constant="160" id="TKR-3r-Xnq"/>
@@ -1074,9 +1073,6 @@
         <image name="ic_water" width="10" height="15"/>
         <namedColor name="dark">
             <color red="0.37299999594688416" green="0.37599998712539673" blue="0.42699998617172241" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="fight">
-            <color red="0.85100001096725464" green="0.25900000333786011" blue="0.33700001239776611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="ice">
             <color red="0.49399998784065247" green="0.83099997043609619" blue="0.78799998760223389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
