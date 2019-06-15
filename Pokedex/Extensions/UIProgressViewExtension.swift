@@ -11,8 +11,14 @@ import UIKit
 extension UIProgressView {
     
     func configProgress(color: UIColor) {
-        self.transform = self.transform.scaledBy(x: 1, y: 5)
+        
+        self.clipsToBounds = true
+        self.subviews[1].clipsToBounds = true
+        
         self.layer.cornerRadius = 10
+        self.layer.sublayers![1].cornerRadius = 10
+        
+        self.transform = self.transform.scaledBy(x: 1, y: 5)
         self.progressTintColor = color
     }
 
