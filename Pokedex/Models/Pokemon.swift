@@ -8,6 +8,10 @@
 
 import Foundation
 
+struct PokemonResponse: Codable {
+    let list: PokemonList
+}
+
 struct PokemonList: Codable { let pokemons: [Pokemon] }
 
 struct Pokemon : Codable {
