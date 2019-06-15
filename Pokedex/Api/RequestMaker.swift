@@ -12,7 +12,7 @@ class RequestMaker {
     
     enum Endpoint {
         case list
-        case details(query: String)
+        case details(query: Int)
         case move
         
         var url: String {

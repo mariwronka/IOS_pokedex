@@ -12,16 +12,16 @@ struct PokemonList: Codable { let pokemons: [Pokemon] }
 
 struct Pokemon : Codable {
     
-    let id: String
+    let id: Int
     let name: String
     let image: String
     let types: [PokemonType]
     let description: String?
-    let status: [Status]?
+    let stats: [Stats]?
     
 }
 
-struct Status: Codable {
+struct Stats: Codable {
     let value: Int
     let name: String
 }

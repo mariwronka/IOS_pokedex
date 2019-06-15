@@ -21,7 +21,7 @@ class PokemonTableViewCell: UITableViewCell {
     func config(with model: Pokemon) {
         pictureImageView.loadImage(from: model.image)
         nameLabel.text = model.name.capitalized
-        if let id = Int(model.id) { idLabel.text = String(format: "#%03d", id) }
+        idLabel.text = String(format: "#%03d", model.id)
         primaryTypeImageView.image = model.types.first?.icon
         primaryBackgroudType.backgroundColor = model.types.first?.color
         
