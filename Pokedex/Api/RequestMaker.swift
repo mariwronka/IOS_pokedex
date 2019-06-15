@@ -8,7 +8,17 @@
 
 import Foundation
 
+
+enum RequestMakerError: Error {
+    case malFormedURL
+    case requestFailed
+    case invalidData
+    case decodingFailed
+}
+
 class RequestMaker {
+    
+    static let decoder = JSONDecoder()
     
     enum Endpoint {
         case list
@@ -38,12 +48,31 @@ class RequestMaker {
         }
     }
     
+    
     let baseUrl = "http://localhost:3000/"
     let session = URLSession.shared
-    typealias CompletionCallback<T: Decodable> = (T) -> Void
+    typealias RequestResult<T> = Result<T, RequestMakerError>
+    typealias CompletionCallback<T: Decodable> = (RequestResult<T>) -> Void
+    typealias SuccessCallback<T: Decodable> = (T) -> Void
     
-    func make<T: Decodable>(withEndpoint endpoint: Endpoint, completion: @escaping CompletionCallback<T>) {
+    
+    func make<T: Decodable>(withEndpoint endpoint: Endpoint, completion: @escaping SuccessCallback<T>) {
+        
+        make(withEndpoint: endpoint) { (result: RequestResult<T>) in
+            switch result {
+            case .success(let object):
+                completion(object)
+            case .failure:
+                break
+            }
+        }
+    }
+    
+    func make<T: Decodable>(withEndpoint endpoint: Endpoint,
+                            completion: @escaping CompletionCallback<T>) {
+        
         guard let url = URL(string: "\(baseUrl)\(endpoint.url)") else {
+            completion(.failure(.malFormedURL))
             return
         }
         
@@ -51,19 +80,22 @@ class RequestMaker {
             (data: Data?, response: URLResponse?, error: Error?) in
             
             guard error == nil else {
+                completion(.failure(.requestFailed))
                 print(error!)
                 return
             }
             
             guard let data = data else {
+                completion(.failure(.invalidData))
                 print("não veio")
                 return
             }
             
             do {
-                let decodeObject = try JSONDecoder().decode(T.self, from: data)
-                completion(decodeObject)
+                let decodeObject = try RequestMaker.decoder.decode(T.self, from: data)
+                completion(RequestResult.success(decodeObject))
             } catch let error {
+                completion(.failure(.decodingFailed))
                 print("Error: " + error.localizedDescription)
             }
         }
