@@ -20,35 +20,6 @@ class RequestMaker {
     
     static let decoder = JSONDecoder()
     
-    enum Endpoint {
-        case list
-        case details(query: Int)
-        case move
-        
-        var url: String {
-            switch self {
-            case .list:
-                return "list"
-            case let .details(query):
-                return "details/\(query)"
-            case .move:
-                return "moves"
-            }
-        }
-        
-        var modelTyoe: Decodable.Type {
-            switch self {
-            case .list:
-                return PokemonList.self
-            case .details:
-                return Pokemon.self
-            case .move:
-                return [Move].self
-            }
-        }
-    }
-    
-    
     let baseUrl = "http://localhost:3000/"
     let session = URLSession.shared
     typealias RequestResult<T> = Result<T, RequestMakerError>
@@ -68,7 +39,7 @@ class RequestMaker {
         }
     }
     
-    func make<T: Decodable>(withEndpoint endpoint: Endpoint,
+    private func make<T: Decodable>(withEndpoint endpoint: Endpoint,
                             completion: @escaping CompletionCallback<T>) {
         
         guard let url = URL(string: "\(baseUrl)\(endpoint.url)") else {
